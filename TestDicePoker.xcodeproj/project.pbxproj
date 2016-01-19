@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC48E7271C4E859D006B3AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E7261C4E859D006B3AB9 /* AppDelegate.swift */; };
+		AC48E7291C4E859D006B3AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E7281C4E859D006B3AB9 /* ViewController.swift */; };
+		AC48E72C1C4E859D006B3AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48E72A1C4E859D006B3AB9 /* Main.storyboard */; };
+		AC48E72E1C4E859D006B3AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48E72D1C4E859D006B3AB9 /* Assets.xcassets */; };
+		AC48E7311C4E859D006B3AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48E72F1C4E859D006B3AB9 /* LaunchScreen.storyboard */; };
+		AC48E73C1C4E859D006B3AB9 /* TestDicePokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E73B1C4E859D006B3AB9 /* TestDicePokerTests.swift */; };
+		AC48E7471C4E859D006B3AB9 /* TestDicePokerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E7461C4E859D006B3AB9 /* TestDicePokerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC48E7381C4E859D006B3AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48E71B1C4E859D006B3AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48E7221C4E859D006B3AB9;
+			remoteInfo = TestDicePoker;
+		};
+		AC48E7431C4E859D006B3AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48E71B1C4E859D006B3AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48E7221C4E859D006B3AB9;
+			remoteInfo = TestDicePoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC48E7231C4E859D006B3AB9 /* TestDicePoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDicePoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48E7261C4E859D006B3AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC48E7281C4E859D006B3AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC48E72B1C4E859D006B3AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC48E72D1C4E859D006B3AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC48E7301C4E859D006B3AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC48E7321C4E859D006B3AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48E7371C4E859D006B3AB9 /* TestDicePokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDicePokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48E73B1C4E859D006B3AB9 /* TestDicePokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDicePokerTests.swift; sourceTree = "<group>"; };
+		AC48E73D1C4E859D006B3AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48E7421C4E859D006B3AB9 /* TestDicePokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDicePokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48E7461C4E859D006B3AB9 /* TestDicePokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDicePokerUITests.swift; sourceTree = "<group>"; };
+		AC48E7481C4E859D006B3AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC48E7201C4E859D006B3AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48E7341C4E859D006B3AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48E73F1C4E859D006B3AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC48E71A1C4E859D006B3AB9 = {
+			isa = PBXGroup;
+			children = (
+				AC48E7251C4E859D006B3AB9 /* TestDicePoker */,
+				AC48E73A1C4E859D006B3AB9 /* TestDicePokerTests */,
+				AC48E7451C4E859D006B3AB9 /* TestDicePokerUITests */,
+				AC48E7241C4E859D006B3AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC48E7241C4E859D006B3AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E7231C4E859D006B3AB9 /* TestDicePoker.app */,
+				AC48E7371C4E859D006B3AB9 /* TestDicePokerTests.xctest */,
+				AC48E7421C4E859D006B3AB9 /* TestDicePokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC48E7251C4E859D006B3AB9 /* TestDicePoker */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E7261C4E859D006B3AB9 /* AppDelegate.swift */,
+				AC48E7281C4E859D006B3AB9 /* ViewController.swift */,
+				AC48E72A1C4E859D006B3AB9 /* Main.storyboard */,
+				AC48E72D1C4E859D006B3AB9 /* Assets.xcassets */,
+				AC48E72F1C4E859D006B3AB9 /* LaunchScreen.storyboard */,
+				AC48E7321C4E859D006B3AB9 /* Info.plist */,
+			);
+			path = TestDicePoker;
+			sourceTree = "<group>";
+		};
+		AC48E73A1C4E859D006B3AB9 /* TestDicePokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E73B1C4E859D006B3AB9 /* TestDicePokerTests.swift */,
+				AC48E73D1C4E859D006B3AB9 /* Info.plist */,
+			);
+			path = TestDicePokerTests;
+			sourceTree = "<group>";
+		};
+		AC48E7451C4E859D006B3AB9 /* TestDicePokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E7461C4E859D006B3AB9 /* TestDicePokerUITests.swift */,
+				AC48E7481C4E859D006B3AB9 /* Info.plist */,
+			);
+			path = TestDicePokerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC48E7221C4E859D006B3AB9 /* TestDicePoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48E74B1C4E859D006B3AB9 /* Build configuration list for PBXNativeTarget "TestDicePoker" */;
+			buildPhases = (
+				AC48E71F1C4E859D006B3AB9 /* Sources */,
+				AC48E7201C4E859D006B3AB9 /* Frameworks */,
+				AC48E7211C4E859D006B3AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDicePoker;
+			productName = TestDicePoker;
+			productReference = AC48E7231C4E859D006B3AB9 /* TestDicePoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC48E7361C4E859D006B3AB9 /* TestDicePokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48E74E1C4E859D006B3AB9 /* Build configuration list for PBXNativeTarget "TestDicePokerTests" */;
+			buildPhases = (
+				AC48E7331C4E859D006B3AB9 /* Sources */,
+				AC48E7341C4E859D006B3AB9 /* Frameworks */,
+				AC48E7351C4E859D006B3AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC48E7391C4E859D006B3AB9 /* PBXTargetDependency */,
+			);
+			name = TestDicePokerTests;
+			productName = TestDicePokerTests;
+			productReference = AC48E7371C4E859D006B3AB9 /* TestDicePokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC48E7411C4E859D006B3AB9 /* TestDicePokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48E7511C4E859D006B3AB9 /* Build configuration list for PBXNativeTarget "TestDicePokerUITests" */;
+			buildPhases = (
+				AC48E73E1C4E859D006B3AB9 /* Sources */,
+				AC48E73F1C4E859D006B3AB9 /* Frameworks */,
+				AC48E7401C4E859D006B3AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC48E7441C4E859D006B3AB9 /* PBXTargetDependency */,
+			);
+			name = TestDicePokerUITests;
+			productName = TestDicePokerUITests;
+			productReference = AC48E7421C4E859D006B3AB9 /* TestDicePokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC48E71B1C4E859D006B3AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Utilisateur invité";
+				TargetAttributes = {
+					AC48E7221C4E859D006B3AB9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AC48E7361C4E859D006B3AB9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AC48E7221C4E859D006B3AB9;
+					};
+					AC48E7411C4E859D006B3AB9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AC48E7221C4E859D006B3AB9;
+					};
+				};
+			};
+			buildConfigurationList = AC48E71E1C4E859D006B3AB9 /* Build configuration list for PBXProject "TestDicePoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC48E71A1C4E859D006B3AB9;
+			productRefGroup = AC48E7241C4E859D006B3AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC48E7221C4E859D006B3AB9 /* TestDicePoker */,
+				AC48E7361C4E859D006B3AB9 /* TestDicePokerTests */,
+				AC48E7411C4E859D006B3AB9 /* TestDicePokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC48E7211C4E859D006B3AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48E7311C4E859D006B3AB9 /* LaunchScreen.storyboard in Resources */,
+				AC48E72E1C4E859D006B3AB9 /* Assets.xcassets in Resources */,
+				AC48E72C1C4E859D006B3AB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48E7351C4E859D006B3AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48E7401C4E859D006B3AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC48E71F1C4E859D006B3AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48E7291C4E859D006B3AB9 /* ViewController.swift in Sources */,
+				AC48E7271C4E859D006B3AB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48E7331C4E859D006B3AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48E73C1C4E859D006B3AB9 /* TestDicePokerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48E73E1C4E859D006B3AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48E7471C4E859D006B3AB9 /* TestDicePokerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC48E7391C4E859D006B3AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48E7221C4E859D006B3AB9 /* TestDicePoker */;
+			targetProxy = AC48E7381C4E859D006B3AB9 /* PBXContainerItemProxy */;
+		};
+		AC48E7441C4E859D006B3AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48E7221C4E859D006B3AB9 /* TestDicePoker */;
+			targetProxy = AC48E7431C4E859D006B3AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC48E72A1C4E859D006B3AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48E72B1C4E859D006B3AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC48E72F1C4E859D006B3AB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48E7301C4E859D006B3AB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC48E7491C4E859D006B3AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC48E74A1C4E859D006B3AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC48E74C1C4E859D006B3AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestDicePoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.TestDicePoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC48E74D1C4E859D006B3AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestDicePoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.TestDicePoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC48E74F1C4E859D006B3AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestDicePokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.TestDicePokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDicePoker.app/TestDicePoker";
+			};
+			name = Debug;
+		};
+		AC48E7501C4E859D006B3AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestDicePokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.TestDicePokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDicePoker.app/TestDicePoker";
+			};
+			name = Release;
+		};
+		AC48E7521C4E859D006B3AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestDicePokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.TestDicePokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestDicePoker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC48E7531C4E859D006B3AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestDicePokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.TestDicePokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestDicePoker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC48E71E1C4E859D006B3AB9 /* Build configuration list for PBXProject "TestDicePoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48E7491C4E859D006B3AB9 /* Debug */,
+				AC48E74A1C4E859D006B3AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC48E74B1C4E859D006B3AB9 /* Build configuration list for PBXNativeTarget "TestDicePoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48E74C1C4E859D006B3AB9 /* Debug */,
+				AC48E74D1C4E859D006B3AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC48E74E1C4E859D006B3AB9 /* Build configuration list for PBXNativeTarget "TestDicePokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48E74F1C4E859D006B3AB9 /* Debug */,
+				AC48E7501C4E859D006B3AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC48E7511C4E859D006B3AB9 /* Build configuration list for PBXNativeTarget "TestDicePokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48E7521C4E859D006B3AB9 /* Debug */,
+				AC48E7531C4E859D006B3AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC48E71B1C4E859D006B3AB9 /* Project object */;
+}
